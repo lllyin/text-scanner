@@ -1,0 +1,20 @@
+.img-wrap{
+    position: relative;
+    border: 1px solid #ccc;
+    width: 583px;
+}
+.img-wrap img{
+    width: 100%;
+}
+.move-area{
+    position: absolute;
+    background: rgba(0,0,0,.3);
+    left: 0;
+    top: 0;
+    cursor: move;
+}
+
+.tips{
+    font-size: 15px;
+    color: #666;
+}
