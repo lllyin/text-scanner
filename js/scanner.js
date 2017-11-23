@@ -24,7 +24,7 @@ lyin = {
         this.ndCanvas.style.left = config.canvasX;
         this.ndCanvas.style.top = config.canvasY;
     },
-    scanText(picObj,context){
+    scanText:function(picObj,context){
         var picSrc; //图片地址
         this.context = context || this.ndCanvas.getContext("2d");
         if(picObj.nodeType === 1){
@@ -68,22 +68,22 @@ lyin = {
         this.context.putImageData(imageData,0,0)
     },
     //move scan point
-    moveScanPoint(x,y){
+    moveScanPoint:function(x,y){
         config.scanX = x;
         config.scanY = y;
     },
     //change scan size
-    changeScanSize(width,height){
+    changeScanSize:function(width,height){
         config.scanWidth = width;
         config.scanHeight = height;
     },
     //move canvas point
-    moveCanvasPoint(x,y){
+    moveCanvasPoint:function(x,y){
         config.canvasX = x;
         config.canvasY = y;
     },
     // change canvas size
-    changeCanvasSize(width,height){
+    changeCanvasSize:function(width,height){
         config.canvasWidth = width;
         config.canvasHeight = height;
     }
