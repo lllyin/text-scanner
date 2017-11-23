@@ -23,10 +23,11 @@ lyin = {
         this.ndCanvas.style.border = "1px solid"
         this.ndCanvas.style.left = config.canvasX;
         this.ndCanvas.style.top = config.canvasY;
+        this.context = this.ndCanvas.getContext("2d");
+
     },
     scanText:function(picObj,context){
         var picSrc; //图片地址
-        this.context = context || this.ndCanvas.getContext("2d");
         if(picObj.nodeType === 1){
             picSrc = picObj.src;
         }else{
