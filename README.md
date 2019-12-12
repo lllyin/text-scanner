@@ -3,4 +3,4 @@
 
 # 在线体验地址
 > 请在PC上体验    
-[http://liaolunling.top/demo/text-scanner/index.html](http://liaolunling.top/demo/text-scanner/index.html)
+[在线链接](https://andesome.github.io/text-scanner/index.html)
