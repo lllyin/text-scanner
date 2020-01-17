@@ -5,12 +5,12 @@
 var config = {
     canvasX:10,
     canvasY:330,
-    canvasWidth:300,
-    canvasHeight:25,
+    canvasWidth:350,
+    canvasHeight:50,
     scanX:0,
     scanY:0,
-    scanWidth:300,
-    scanHeight:25
+    scanWidth:350,
+    scanHeight:50
 }
 
 lyin = {
@@ -105,8 +105,8 @@ lyin.init();
 lyin.scanText(ndPic);
 
 //生成移动区域
-var moveAreaWidth = 300;
-var moveAreaHeight = 25;
+var moveAreaWidth = 350;
+var moveAreaHeight = 50;
 var ndMoveArea = document.createElement("div");
 ndMoveArea.style.width = moveAreaWidth +"px";
 ndMoveArea.style.height = moveAreaHeight +"px";
